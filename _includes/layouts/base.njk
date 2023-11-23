@@ -6,7 +6,9 @@
   <title>ELeventy & Tailwind</title>
   <link rel="stylesheet" href="/css/styles.css">
 </head>
-<body>
-  <h1 class="text-4xl font-bold text-blue-600">Hello World</h1>
+<body class="min-h-screen flex flex-col">
+  {% include "partials/_header.html" %}
+  {{ content | safe}}
+  {% include "partials/_footer.html" %}
 </body>
 </html>

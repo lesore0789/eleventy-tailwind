@@ -6,7 +6,28 @@
   <title>ELeventy & Tailwind</title>
   <link rel="stylesheet" href="/css/styles.css">
 </head>
-<body>
-  <h1 class="text-4xl font-bold text-blue-600">Hello World</h1>
+<body class="min-h-screen flex flex-col">
+  <header class="w-full bg-white flex justify-between items-center px-6 py-4 md:px-8">
+  <a href="">
+    <img src="/assets/logo.svg" alt="Logo" class="h-12">
+  </a>
+  <nav>
+    <ul class="flex gap-10 font-semibold text-sm">
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <li>
+        <a href="/about">About</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+    <h1 class="text-4xl font-bold text-blue-600">Hello World</h1>
+
+  <footer class="bg-white w-full text-center px-6 py-2 mt-auto md:px-8">
+  <small>Copyrights &copy; 2023 | All rights reserved</small>
+</footer>
+
 </body>
 </html>
