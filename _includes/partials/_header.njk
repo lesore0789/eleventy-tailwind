@@ -5,10 +5,10 @@
   <nav>
     <ul class="flex gap-10 font-semibold text-sm">
       <li>
-        <a href="/">Home</a>
+        <a href="/" class="{{ 'text-purple-700' if url === 'home' }}">Home</a>
       </li>
       <li>
-        <a href="/about">About</a>
+        <a href="/about" class="{{ 'text-purple-700' if url === 'about' }}">About</a>
       </li>
     </ul>
   </nav>
